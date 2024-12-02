@@ -1,8 +1,9 @@
 import Image from "next/image";
 import { Fragment } from "react";
+import React from 'react';
 
 import { Dialog, Transition } from "@headlessui/react";
-import { CarProps } from "@types";
+import { CarProps } from "@/types";
 
 const imaginApiKey = process.env.NEXT_PUBLIC_IMAGIN_API_KEY;
 

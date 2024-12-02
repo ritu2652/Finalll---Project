@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import React from 'react';
 
-import { footerLinks } from "@constants";
+import { footerLinks } from "@/constants";
 
 const Footer = () => (
   <footer className="footer">
@@ -15,7 +16,7 @@ const Footer = () => (
           className="object-contain"
         />
         <p className="text-base text-gray-700">
-          Carhub 2023 <br />
+          Carhub 2024 <br />
           All Rights Reserved &copy;
         </p>
       </div>
@@ -41,7 +42,7 @@ const Footer = () => (
     </div>
 
     <div className="footer__copyrights">
-      <p>@2022 CarHub. All rights reserved</p>
+      <p>@2024 CarHub. All rights reserved</p>
 
       <div className="footer__copyrights-link">
         <Link href="/" className="text-gray-500">

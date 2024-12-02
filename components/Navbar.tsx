@@ -1,3 +1,6 @@
+'use client';
+import React from 'react';
+
 import Link from "next/link";
 import Image from "next/image";
 
@@ -22,14 +25,15 @@ const NavBar = () => {
          title = "Sign In"
          btnType = 'button'
          containerStyles='text-primary-blue
-         rounded-full bg-white min-w-[130px]'
-
+         rounded-full bg-white min-w-[130px] hover:bg-primary-blue hover:text-white transition'
+         handleClick={() => window.location.href = '/signin'} 
         />
          <CustomButton 
          title = "Contat Us"
          btnType = 'button'
          containerStyles='text-primary-blue
-         rounded-full bg-white min-w-[130px]'
+         rounded-full bg-white min-w-[130px] hover:bg-primary-blue hover:text-white transition'
+         handleClick={() => window.location.href = './contact'} 
 
         />
         </div>

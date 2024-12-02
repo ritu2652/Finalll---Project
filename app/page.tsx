@@ -2,11 +2,12 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import React from 'react';
 
-import { fetchCars } from "@utils";
-import { fuels, yearsOfProduction } from "@constants";
-import { CarCard, ShowMore, SearchBar, CustomFilter, Hero } from "@components";
-import { CarState } from "@types";
+import { fetchCars } from "@/utils";
+import { fuels, yearsOfProduction } from "@/constants";
+import { CarCard, ShowMore, SearchBar, CustomFilter, Hero } from "@/components";
+import { CarState } from "@/types";
 
 export default function Home() {
   const [allCars, setAllCars] = useState<CarState>([]);

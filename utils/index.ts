@@ -1,4 +1,4 @@
-import { CarProps, FilterProps } from "@types";
+import { CarProps, FilterProps } from "@/types";
 
 const basePricePerDay = 50; 
 const mileageFactor = 0.1; 
